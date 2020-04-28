@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0; 
+ }
+ body{
+     background-image: url('/imagenes/fondo.jpg');
+ }
+ #contenido, #header, #menu, #centro, #footer{
+     width: 1000px;
+ }
+ #contenido{
+     
+     height: 1000px;
+     margin: 0 auto;
+ }
+ #header{
+     height: 200px;
+ }
+ #logo{
+     width: 200px;
+     height: 200px;
+     background-color: crimson;
+     float: left;
+ }
+ #banner{
+     width: 800px;
+     height: 200px;
+     background-color:blue;
+     float: left;
+ }
+ 
+ #menu{
+     height: 50px;
+     background-color:chartreuse;
+ }
+ #centro{
+     height: 500px;
+ }
+ #article{
+     width: 700px;
+     height: 500px;
+     background-color:darkorchid;
+     float: left;
+ }
+ #aside{
+     width: 300px;
+     height: 500px;
+     background-color:darkorange;
+     float: left;
+ }
+ #footer{
+     height: 50px;
+     background-color:yellow;
+ }
